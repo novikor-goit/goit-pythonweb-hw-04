@@ -1,0 +1,25 @@
+[project]
+name = "goit-pythonweb-hw-04"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Maksym Novik",email = "novik.kor@gmail.com"}
+]
+requires-python = ">=3.13,<4.0.0"
+dependencies = [
+    "aiofile (>=3.9.0,<4.0.0)",
+    "aioshutil (>=1.5,<2.0)",
+    "aiopath (>=0.7.7,<0.8.0)",
+    "rich (>=14.1.0,<15.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+mypy = "^1.17.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
